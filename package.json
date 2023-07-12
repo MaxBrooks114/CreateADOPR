@@ -2,6 +2,10 @@
   "name": "CreateADOPR",
   "displayName": "Azure DevOps Create PR",
   "description": "Opens a link to create a new pull request from within the link provided in the extension's config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxBrooks114/CreateADOPR.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -11,6 +15,7 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
+  
   "contributes": {
     "commands": [
       {
