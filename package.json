@@ -1,5 +1,5 @@
 {
-  "name": "createADOPR",
+  "name": "CreateADOPR",
   "displayName": "Azure DevOps Create PR",
   "description": "Opens a link to create a new pull request from within the link provided in the extension's config",
   "version": "0.0.1",
