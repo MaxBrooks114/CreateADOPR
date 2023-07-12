@@ -26,14 +26,14 @@ Before using this extension, please ensure that you have the following:
 ## Usage
 
 1. Open the project or repository in Visual Studio Code for which you want to create a pull request in Azure DevOps.
-2. Open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS).
-3. Search for the command "Create Pull Request in Azure DevOps" and select it.
-4. If prompted, provide the following information:
+2. Provide the following information in the configuration:
    - Azure DevOps Repository URL.
    - Source Repository Name.
    - Source Repository ID.
    - Target Repository Name.
    - Target Repository ID.
+3. Open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS).
+4. Search for the command "Azure DevOps: Create Pull Request" and select it.
 5. The extension will open the pull request creation link in your default browser, pre-filled with the provided information.
 
 ## Configuration

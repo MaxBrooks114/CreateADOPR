@@ -6,9 +6,8 @@ import * as vscode from 'vscode';
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	const commandId = 'CreateADOPR.CreatePullRequest';
-		const commandTitle = 'Create Pull Request in Azure DevOps';
-
+	  const commandId = 'CreateADOPR.CreatePullRequest';
+		
 		const disposable = vscode.commands.registerCommand(commandId, () => {
     const config = vscode.workspace.getConfiguration();
     const repositoryUrl = config.get('extension.repositoryUrl') as string;

@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "CreateADOPR.CreatePullRequest",
-        "title": "Create Pull Request"
+        "title": "Azure DevOps: Create Pull Request"
       }
     ],
     "configuration": {
